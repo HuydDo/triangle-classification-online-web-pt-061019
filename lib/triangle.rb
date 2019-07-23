@@ -8,13 +8,6 @@ class Triangle
   end
 
   def kind
-    # if (size1 <= 0 || size2 <= 0 || size3 <= 0) || !(size1 + size2 > size3 && size2 + size3 > size1 && size1 + size3 > size2)
-    #   # begin
-    #     raise TriangleError
-    #   # rescue TriangleError => error
-    #   #   puts error.message
-    #   # end
-    # else
       valid_triagle
       if size1==size2 && size2==size3
         :equilateral
